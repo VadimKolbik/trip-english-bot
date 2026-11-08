@@ -1,0 +1,25 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Настройки (секреты)
+.env
+
+# База данных SQLite
+data/
+*.db
+*.sqlite3
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Тесты и кэш
+.pytest_cache/
+.coverage
+
+# Логи и системный мусор
+*.log
+.DS_Store
